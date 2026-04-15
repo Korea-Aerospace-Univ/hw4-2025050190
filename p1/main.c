@@ -6,9 +6,9 @@ int main() {
     do {
         scanf("%d", &n);
         if (n > answer)
-            printf("%d>?\n");
+            printf("%d>?\n", n);
         else if (n < answer)
-            printf("%d<?\n");
+            printf("%d<?\n", n);
         else
             printf("%d==?\n", n);
         count ++;
