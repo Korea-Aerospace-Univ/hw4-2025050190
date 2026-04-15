@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < N; i ++) {
         scanf(" %c", &ch);
 
-        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+        if (ch >= 'a' && ch <= 'z') {
             count_char ++;
             if (max_int < count_int) {
                 max_int = count_int;
